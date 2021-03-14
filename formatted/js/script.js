@@ -5,5 +5,4 @@
 
 $(document).ready(function () {
     $("#rubrics").load("sidebar.txt");;
-    $("#header").load("header.txt");;
 });

@@ -1665,7 +1665,7 @@ img {
 
 @media (min-width:992px) {
     .has_site_logo .pkp_head_wrapper {
-        padding-top: 111px
+        padding-top: 60px
     }
 }
 
@@ -2074,7 +2074,7 @@ img {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
-        color: #638CC7;
+    color: #638CC7;
 }
 
 .pkp_structure_main h2 {
@@ -2861,7 +2861,8 @@ img {
 }
 
 .page_search .author {
-    width: 50%; float: right
+    width: 50%;
+    float: right
 }
 
 .page_search .submit {
@@ -4181,7 +4182,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
 .pkp_site_name .is_img img {
     display: block;
-    max-height: 250px !important;
+    max-height: 240px !important;
     margin: 0px auto 0px auto;
     max-width: 100%;
     width: auto;
@@ -4198,7 +4199,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     top: 1px;
     /* background-color:transparent; */
     /* background: #ffffffb8; */
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     font-weight: bold !important;
     padding-left: 9px;
     padding-right: 0px;
@@ -4227,7 +4228,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
     /* Search Button auch in mobiler Ansicht im richtigen grÃ¼n*/
     .pkp_search button {
-        color:#0F4C81 !important;
+        color: #0F4C81 !important;
     }
 }
 
@@ -4290,4 +4291,10 @@ a:focus {
 .pkp_navigation_user>li>a:hover,
 .pkp_navigation_user>li>a:focus {
     color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width:992px) {
+    .has_site_logo .pkp_head_wrapper {
+        padding-top: 70px !important
+    }
 }

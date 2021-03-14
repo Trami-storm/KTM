@@ -1,4 +1,5 @@
-External styles for the [website of "Kino-Teatr" magazine] (https://ktm.ukma.edu.ua/index.php/ktm). The website is developed on the OJS platform for online academic journals. Styles are based on the original OJS theme with some edits.
+External styles for the [website of "Kino-Teatr" magazine](https://ktm.ukma.edu.ua/index.php/ktm). 
+The website is developed on the OJS platform for online academic journals. Styles are based on the original OJS theme with some edits.
 
 **Pages**:
 

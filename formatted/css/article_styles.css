@@ -4171,7 +4171,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 /* Hintergrundgrafik */
 .pkp_structure_head {
     /*  border: 1px solid #ddd; */
-    background: url("https://github.com/Trami-storm/KTM/blob/develop/formatted/img/banner.jpg") #ccc repeat center center;
+    background: url("https://raw.githubusercontent.com/Trami-storm/KTM/develop/formatted/img/banner.jpg") #ccc repeat center center;
     height: 372px;
 }
 

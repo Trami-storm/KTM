@@ -1,0 +1,126 @@
+/*---------------------------- EDITABLE___________________*/
+
+/* Hintergrundgrafik */
+.pkp_structure_head {
+    /*  border: 1px solid #ddd; */
+    background: url("https://i.ibb.co/6mdGX8Q/banner.jpg") #ccc repeat center center;
+    height: 372px;
+}
+
+/* zentriert das Logo */
+.pkp_site_name {
+    text-align: left !important;
+}
+
+.pkp_site_name .is_img img {
+    display: block;
+    max-height: 250px !important;
+    margin: 0px auto 0px auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+/*verschiebt Current, Archives etc. nach unten */
+/*TODO: weisser Hintergrund soll bis an die RÃƒÂ¤nder links und rechts gehen */
+.pkp_navigation_primary_wrapper {
+    /* width: 2000px !important; */
+    margin-right: 0;
+    margin-left: 0;
+    /* position: absolute; */
+    top: 1px;
+    /* background-color:transparent; */
+    /* background: #ffffffb8; */
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold !important;
+    padding-left: 9px;
+    padding-right: 0px;
+}
+
+/* W-D: Navigation wird etwas eingerÃ¼ckt, der Search-Button grÃ¼n gefÃ¤rbt */
+.pkp_navigation_primary {
+    padding-left: 20px !important;
+}
+
+.pkp_search button {
+    color: #0F4C81 !important;
+}
+
+/* W-D: fÃ¼r die Breadcrumbs bei der mobilen Ansicht etwas Platz geschaffen*/
+@media (max-width: 991px) {
+    .pkp_structure_main {
+        padding-top: 60px !important;
+    }
+
+    /* W-D: Position des Logos im VerhÃ¤ltnis zur Navigation wird fÃ¼r die mobile Ansicht angepasst: */
+    .pkp_site_name .is_img img {
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+
+    /* Search Button auch in mobiler Ansicht im richtigen grÃ¼n*/
+    .pkp_search button {
+        color: #0F4C81 !important;
+    }
+}
+
+/*backlink von HTML Ansicht eines Artikels */
+.header_view .title:hover,
+.header_view .title:focus {
+    background: #0F4C81 !important;
+}
+
+.header_view {
+    z-index: 2;
+    position: relative;
+    background: #0F4C81 !important;
+}
+
+.header_view .return:hover,
+.header_view .return:focus {
+    background: #0F4C81 !important;
+    color: #fff;
+}
+
+/* Links werden grÃ¼n angezeigt */
+a {
+    color: #0F4C81 !important;
+}
+
+/* mouse over link in hellerem grÃ¼n*/
+a:hover,
+a:focus {
+    color: #638CC7 !important;
+}
+
+/* Footer komplett weiss; TODO: graue Striche weiterlaufen lassen*/
+.pkp_structure_footer_wrapper {
+    background: #fff !important;
+}
+
+/* -	Ã¢â‚¬Å¾RegistrierenÃ¢â‚¬Å“-/ Ã¢â‚¬Å¾EinloggenÃ¢â‚¬Å“-Felder: Schriftfarbe anpassen (weiÃƒÅ¸) 
+.pkp_nav_list [aria-haspopup] a:first-child {
+    margin-right: 0;
+    color: #fff !important;
+}
+*/
+
+.pkp_navigation_user .task_count {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5em;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.pkp_navigation_user>li>a,
+.pkp_navigation_user>li.in_focus>a,
+.pkp_navigation_user>li>a:hover,
+.pkp_navigation_user>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+}

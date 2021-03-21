@@ -1,0 +1,30 @@
+ <div class="pkp_structure_sidebar left" role="complementary" aria-label="Бічна панель">
+                <div class="pkp_block block_information">
+                    <h2 class="title">Рубрики</h2>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/actual">
+                                    Актуально
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/on-screen">
+                                    На екранах
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/on-stage">
+                                    На сценах
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/on-stage">
+                                    Нова рубрика
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div><!-- pkp_sidebar.left -->

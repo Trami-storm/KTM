@@ -4216,7 +4216,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     color: #0F4C81 !important;
 }
 
-/* W-D: fГѓВјr die Breadcrumbs bei der mobilen Ansicht etwas Platz geschaffen*/
+/* W-D: fГѓВјr die Breadcrumbs bei der mobilen Ansicht etwas Platz geschaffen
 @media (max-width: 991px) {
     .pkp_structure_main {
         padding-top: 60px !important;
@@ -4230,11 +4230,13 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
     */
 
-    /* Search Button auch in mobiler Ansicht im richtigen grГѓВјn*/
+    /* Search Button auch in mobiler Ansicht im richtigen grГѓВјn
     .pkp_search button {
         color: #0F4C81 !important;
     }
 }
+
+*/
 
 /*backlink von HTML Ansicht eines Artikels */
 .header_view .title:hover,
@@ -4325,8 +4327,4 @@ a:focus {
     }
 }
 
-@media (min-width:992px) {
-    .pkp_site_name .is_img {
-        padding-bottom: 60px;
-    }
-}
+

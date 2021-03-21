@@ -43,7 +43,6 @@
                                 </a>
                             </li>  
                             <li>
-                            <li>
                                 <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/music-in-cinema">
                                     Музика в кіно
                                 </a>

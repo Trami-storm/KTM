@@ -4314,3 +4314,10 @@ a:focus {
     margin-top: unset;
     margin-bottom: unset;
 }
+
+/*align logo with upper black stripe and align the menue with bottom black stripe*/
+.pkp_site_name .is_img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}

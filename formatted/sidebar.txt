@@ -9,6 +9,46 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/visti-zi-studii">
+                                    Вісті зі студій 
+                                </a>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/dialog">
+                                    Діалог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/zhadaimo">
+                                    Згадаймо
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/history">
+                                    Історія
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/classic">
+                                    Класика 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/chronika">
+                                    Мистецька хроніка
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/molode-kino">
+                                    Молоде кіно
+                                </a>
+                            </li>  
+                            <li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/music-in-cinema">
+                                    Музика в кіно
+                                </a>
+                            </li>  
+                            <li>
                                 <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/on-screen">
                                     На екранах
                                 </a>
@@ -19,8 +59,24 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/on-stage">
-                                    Нова рубрика
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/new-books">
+                                    Нові книги 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/faces">
+                                    Обличчя 
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/profesiia-rezhyser">
+                                    Професія: режисер 
+                                </a>
+                            </li>  
+                            </li>
+                            <li>
+                                <a href="https://ktm.ukma.edu.ua/index.php/ktm/catalog/category/theory">
+                                    Теорія 
                                 </a>
                             </li>
                         </ul>

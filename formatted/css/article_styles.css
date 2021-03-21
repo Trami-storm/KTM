@@ -4182,7 +4182,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
 .pkp_site_name .is_img img {
     display: block;
-    max-height: 240px !important;
+    max-height: 200px !important;
     margin: 0px auto 0px auto;
     max-width: 100%;
     width: auto;
@@ -4214,7 +4214,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
     color: #0F4C81 !important;
 }
 
-/* W-D: fÃ¼r die Breadcrumbs bei der mobilen Ansicht etwas Platz geschaffen*/
+/* W-D: fÃ¼r die Breadcrumbs bei der mobilen Ansicht etwas Platz geschaffen
 @media (max-width: 991px) {
     .pkp_structure_main {
         padding-top: 60px !important;
@@ -4228,11 +4228,13 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
     */
 
-    /* Search Button auch in mobiler Ansicht im richtigen grÃ¼n*/
+    /* Search Button auch in mobiler Ansicht im richtigen grÃ¼n
     .pkp_search button {
         color: #0F4C81 !important;
     }
 }
+
+*/
 
 /*backlink von HTML Ansicht eines Artikels */
 .header_view .title:hover,
@@ -4295,8 +4297,16 @@ a:focus {
     color: rgba(255, 255, 255, 1);
 }
 
+.pkp_site_name .is_img img {
+    padding-top: 0px !important;
+    /*вирівняти лого по чорній стрічці вгорі*/
+    margin-top: unset !important;
+    /*лого більше не виїжджає за межі контейнера*/
+}
+
 @media (min-width:992px) {
-    .has_site_logo .pkp_head_wrapper {
-        padding-top: 70px !important
+    .pkp_site_name .is_img {
+        padding-bottom: 60px;
+        /*вирівняти меню по нижній чорній стрічці на широкому екрані. На маленькому мень стає вищим і проміжок між ним і чорною стрічкою зникає */
     }
 }

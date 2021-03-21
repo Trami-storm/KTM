@@ -4308,3 +4308,9 @@ a:focus {
 .pkp_search_mobile {
     display: none !important;
 }
+
+/*debug logo moving out of the header*/
+.pkp_site_name .is_img img {
+    margin-top: unset;
+    margin-bottom: unset;
+}

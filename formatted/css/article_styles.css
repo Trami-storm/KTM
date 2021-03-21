@@ -4220,11 +4220,13 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
         padding-top: 60px !important;
     }
 
-    /* W-D: Position des Logos im VerhÃ¤ltnis zur Navigation wird fÃ¼r die mobile Ansicht angepasst: */
+    /* W-D: Position des Logos im VerhÃ¤ltnis zur Navigation wird fÃ¼r die mobile Ansicht angepasst:
     .pkp_site_name .is_img img {
         margin-top: -40px;
         margin-bottom: 20px;
     }
+
+    */
 
     /* Search Button auch in mobiler Ansicht im richtigen grÃ¼n*/
     .pkp_search button {

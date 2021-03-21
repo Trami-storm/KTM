@@ -4184,7 +4184,7 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
 
 .pkp_site_name .is_img img {
     display: block;
-    max-height: 240px !important;
+    max-height: 200px !important; /*smaller logo*/
     margin: 0px auto 0px auto;
     max-width: 100%;
     width: auto;
@@ -4222,11 +4222,13 @@ body[dir="rtl"] .obj_issue_toc .galleys_links li {
         padding-top: 60px !important;
     }
 
-    /* W-D: Position des Logos im VerhГѓВ¤ltnis zur Navigation wird fГѓВјr die mobile Ansicht angepasst: */
+    /* W-D: Position des Logos im VerhГѓВ¤ltnis zur Navigation wird fГѓВјr die mobile Ansicht angepasst:
     .pkp_site_name .is_img img {
         margin-top: -40px;
         margin-bottom: 20px;
     }
+
+    */
 
     /* Search Button auch in mobiler Ansicht im richtigen grГѓВјn*/
     .pkp_search button {
@@ -4309,15 +4311,22 @@ a:focus {
     display: none !important;
 }
 
-/*debug logo moving out of the header*/
+/*debug logo moving out of the header, align logo with upper black stripe*/
 .pkp_site_name .is_img img {
-    margin-top: unset;
-    margin-bottom: unset;
+    padding-top: 0px !important;
+    margin-top: unset !important;
 }
 
-/*align logo with upper black stripe and align the menue with bottom black stripe*/
-.pkp_site_name .is_img {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 20px;
+
+/*align the menue with bottom black stripe*/
+@media (min-width:992px) {
+    .pkp_site_name .is_img {
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width:992px) {
+    .pkp_site_name .is_img {
+        padding-bottom: 60px;
+    }
 }
